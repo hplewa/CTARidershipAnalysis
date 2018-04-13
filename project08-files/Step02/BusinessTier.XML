@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BusinessTier</name>
+    </assembly>
+    <members>
+        <member name="M:BusinessTier.Business.#ctor(System.String)">
+            
+             <summary>
+             Constructs a new instance of the business tier.  The format
+             of the filename should be either |DataDirectory|\filename.mdf,
+             or a complete Windows pathname.
+             </summary>
+             <param name="DatabaseFilename">Name of database file</param>
+             
+        </member>
+        <member name="M:BusinessTier.Business.TestConnection">
+            
+             <summary>
+              Opens and closes a connection to the database, e.g. to
+              startup the server and make sure all is well.
+             </summary>
+             <returns>true if successful, false if not</returns>
+             
+        </member>
+        <member name="M:BusinessTier.Business.GetStations">
+            
+             <summary>
+             Returns all the CTA Stations, ordered by name.
+             </summary>
+             <returns>Read-only list of CTAStation objects</returns>
+             
+        </member>
+        <member name="M:BusinessTier.Business.GetStops(System.Int32)">
+            
+             <summary>
+             Returns the CTA Stops associated with a given station,
+             ordered by name.
+             </summary>
+             <returns>Read-only list of CTAStop objects</returns>
+            
+        </member>
+        <member name="M:BusinessTier.Business.GetTopStations(System.Int32)">
+            
+             <summary>
+             Returns the top N CTA Stations by ridership, 
+             ordered by name.
+             </summary>
+             <returns>Read-only list of CTAStation objects</returns>
+             
+        </member>
+        <member name="T:BusinessTier.CTAStation">
+            
+             <summary>
+             Info about one CTA station.
+             </summary>
+             
+        </member>
+        <member name="T:BusinessTier.CTAStop">
+            
+             <summary>
+             Info about one CTA stop.
+             </summary>
+             
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataAccessTier</name>
+    </assembly>
+    <members>
+        <member name="M:DataAccessTier.Data.#ctor(System.String)">
+            
+             <summary>
+             Constructs a new instance of the data access tier.  The format
+             of the filename should be either |DataDirectory|\filename.mdf,
+             or a complete Windows pathname.
+             </summary>
+             <param name="DatabaseFilename">Name of database file</param>
+             
+        </member>
+        <member name="M:DataAccessTier.Data.OpenCloseConnection">
+            
+             <summary>
+              Opens and closes a connection to the database, e.g. to
+              startup the server and make sure all is well.
+             </summary>
+             <returns>true if successful, false if not</returns>
+             
+        </member>
+        <member name="M:DataAccessTier.Data.ExecuteScalarQuery(System.String)">
+            
+             <summary>
+             Executes an sql SELECT query that returns a single value.
+             </summary>
+             <param name="sql">query to execute</param>
+             <returns>an object containing the single, scalar result</returns>
+            
+        </member>
+        <member name="M:DataAccessTier.Data.ExecuteNonScalarQuery(System.String)">
+            
+             <summary>
+             Executes an sql SELECT query that generates a temporary 
+             table containing 0 or more rows.
+             </summary>
+             <param name="sql">query to execute</param>
+             <returns>a table in the form of a DataSet</returns>
+             
+        </member>
+        <member name="M:DataAccessTier.Data.ExecuteActionQuery(System.String)">
+            
+             <summary>
+             Executes an sql ACTION query --- insert, update, or delete --- that
+             modifies the database.
+             </summary>
+             <param name="sql">query to execute</param>
+             <returns>the # of rows modified by the query</returns>
+             
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,10 @@
+F:\proj8\project08-files\Step01\CTA-Analysis\CTA-Analysis\CTA\bin\Debug\CTA.exe.config
+F:\proj8\project08-files\Step01\CTA-Analysis\CTA-Analysis\CTA\bin\Debug\CTA.exe
+F:\proj8\project08-files\Step01\CTA-Analysis\CTA-Analysis\CTA\bin\Debug\CTA.pdb
+F:\proj8\project08-files\Step01\CTA-Analysis\CTA-Analysis\CTA\obj\Debug\CTA.csprojResolveAssemblyReference.cache
+F:\proj8\project08-files\Step01\CTA-Analysis\CTA-Analysis\CTA\obj\Debug\CTA.Form1.resources
+F:\proj8\project08-files\Step01\CTA-Analysis\CTA-Analysis\CTA\obj\Debug\CTA.Properties.Resources.resources
+F:\proj8\project08-files\Step01\CTA-Analysis\CTA-Analysis\CTA\obj\Debug\CTA.csproj.GenerateResource.Cache
+F:\proj8\project08-files\Step01\CTA-Analysis\CTA-Analysis\CTA\obj\Debug\CTA.csproj.CoreCompileInputs.cache
+F:\proj8\project08-files\Step01\CTA-Analysis\CTA-Analysis\CTA\obj\Debug\CTA.exe
+F:\proj8\project08-files\Step01\CTA-Analysis\CTA-Analysis\CTA\obj\Debug\CTA.pdb
